@@ -1,0 +1,4 @@
+#!/bin/bash
+
+L=$(xclip -o)
+mpv $L

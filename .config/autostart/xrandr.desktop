@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=xrandr --output DP-1 --set "Broadcast RGB" "Full"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Full RGB
+Name=Full RGB
+Comment[en_US]=
+Comment=
