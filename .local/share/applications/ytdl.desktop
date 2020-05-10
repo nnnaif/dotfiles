@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Open With mpv
+Icon=mpv
+Exec=ytdl
+Terminal=false

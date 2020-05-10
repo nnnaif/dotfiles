@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=youtube-dl
+Icon=drive.svg
+Exec=ytdl-dl
+Terminal=true
