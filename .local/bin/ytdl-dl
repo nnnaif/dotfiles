@@ -1,4 +1,4 @@
 #!/bin/bash
 
 L=$(xclip -o)
-cd ~/Desktop; youtube-dl $L
+youtube-dl $L
