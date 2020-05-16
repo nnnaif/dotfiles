@@ -120,4 +120,4 @@ unset HISTFILE
 
 alias dotfiles='git -C ~/Git/dotfiles/ --work-tree=$HOME'
 alias hb='cd /usr/local/bin/hummingbird-linux-x86_64-1.0.2/; sudo ./hummingbird AirVPN_All-servers_UDP-443.ovpn'
-alias hb_us='cd /usr/local/bin/hummingbird-linux-x86_64-1.0.2/; sudo ./hummingbird AirVPN_United-States_UDP-443.ovpn'
+alias hb-us='cd /usr/local/bin/hummingbird-linux-x86_64-1.0.2/; sudo ./hummingbird AirVPN_United-States_UDP-443.ovpn'
