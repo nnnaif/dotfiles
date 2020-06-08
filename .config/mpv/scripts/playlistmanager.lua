@@ -54,14 +54,13 @@ local settings = {
   --json array of filetypes to search from directory
   loadfiles_filetypes = [[
     [
-      "jpg", "jpeg", "png", "tif", "tiff", "gif", "webp", "svg", "bmp",
       "mp3", "wav", "ogm", "flac", "m4a", "wma", "ogg", "opus",
       "mkv", "avi", "mp4", "ogv", "webm", "rmvb", "flv", "wmv", "mpeg", "mpg", "m4v", "3gp"
     ]
   ]],
 
   --loadfiles at startup if there is 0 or 1 items in playlist, if 0 uses worḱing dir for files
-  loadfiles_on_start = false,
+  loadfiles_on_start = true,
 
   --sort playlist on mpv start
   sortplaylist_on_start = false,
@@ -607,11 +606,6 @@ function playlist(force_dir)
       else
         cur = true
       end
-    end
-    if c2 > 0 or c>0 then
-      mp.osd_message("Added "..c + c2.." files to playlist")
-    else
-      mp.osd_message("No additional files found")
     end
     cursor = mp.get_property_number('playlist-pos', 1)
   else
