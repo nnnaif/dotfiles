@@ -118,6 +118,15 @@ fi
 
 unset HISTFILE
 
-alias dotfiles='git -C ~/Git/dotfiles/ --work-tree=$HOME'
+# Node.js
+export PATH="$PATH:/usr/local/lib/nodejs/bin"
+
+#Android/Flutter
+PATH="$PATH:/usr/local/lib/flutter/bin"
+ANDROID_SDK_ROOT="/usr/local/lib/Android/Sdk"
+export ANDROID_SDK_ROOT
+export PATH
+
+alias dotfiles='git -C ~/git/dotfiles/ --work-tree=$HOME'
 alias please='sudo $(history -p !!)'
-source .bashrc.local
+source ~/.bashrc.local
