@@ -1,4 +1,4 @@
 #!/bin/bash
 
 L=$(xclip -o)
-youtube-dl $L
+yt-dlp $L
